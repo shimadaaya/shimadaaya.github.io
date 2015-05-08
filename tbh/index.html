@@ -6,8 +6,11 @@
 </head>
 
 <body>
+
+
 	<header>
 		<h1>Tokyo Bayside Hotel</h1>
+		<img src="img/logo.jpg" alt="logo">
 
 	<nav>
 		<ul>
@@ -21,67 +24,120 @@
 
 	</header>
 
-	<img src="img/main.jpg"alt="mainvisual">
 
 	<div>
+	<img src="img/main.jpg" alt="mainvisual">
+	</div>
+
+
+	<div>
+	<form action="reserve.php">
+		<dl>
+			<dt>ご宿泊</dt>
+			<dd>
+				<select name="yearmonth" id="yearmonth">
+					<option value="201505">2015年5月</option>
+					<option value="201506">2015年6月</option>
+				</select>
+				<select name="day" id="day">
+					<option value="8">8日</option>
+					<option value="9">9日</option>
+					<option value="10">10日</option>
+				</select>
+			</dd>
+			<dt>
+				泊・人・部屋数
+			</dt>
+			<dd>
+				<select name="stay" id="stay">
+					<option value="1">1泊</option>
+					<option value="2">2泊</option>
+					<option value="3">3泊</option>
+				</select>
+				<select name="people" id="people">
+					<option value="1">1人</option>
+					<option value="2">2人</option>
+					<option value="3">3人</option>
+				</select>
+				<select name="room" id="room">
+					<option value="1">1部屋</option>
+					<option value="2">2部屋</option>
+					<option value="3">3部屋</option>
+				</select>
+			</dd>
+		</dl>
+	</form>
+	<p><a href="#">検索する</a></p>
+	</div>
+	<!-- 宿泊予約 -->
+
+
+	<section>
 		<h2>ようこそ、東京ベイサイドホテルへ。</h2>
 		<p>NYモダンな外観とこだわりのインテリアから生まれる心地よい贅沢。<br>洗練された空間とおもてなしで、これまでにない満足感をお約束いたします。<br>ゆっくりおとなのお台場を楽しんでみてはいかがでしょう？</p>
 
-		<img src="img/room.jpg"alt="room">
-	</div>
+		<img src="img/room.jpg" alt="room">
+	</section>
 	<!-- ようこそ -->
 
-	<div>
-		<h3>宿泊スタイルから探す</h3>
-		<p>
-			東京ベイサイドホテルでは、お客様のスタイルに合った、お得なサービスをご用意しております。
-		</p>
-		<p><a href="#">一覧はこちら</a></p>
-		<ul>
-			<img src="img/hayawari.jpg"alt="hayawari">
-			<li><a href="#">早割プラン</a></li>
-			<img src="img/kinen.jpg"alt="kinen">
-			<li><a href="#">記念日プラン</a></li>
-			<img src="img/teiban.jpg"alt="teiban">
-			<li><a href="#">定番プラン</a></li>
-		</ul>
-	</div>
-	<!-- 宿泊スタイル -->
 
-	<div>
-		<h3>ホテルの楽しみ方</h3>
-		<p>
-			ぐっと大人になる夜のお台場。東京ベイサイドホテルの楽しみ方をご紹介いたします。
-		</p>
-		<h4><a href="#">スペシャルな記念日</a></h4>
-		<p>
-			素敵な花束をご用意いたします
-		</p>
-		<h4><a href="#">輝く夜景に乾杯！</a></h4>
-		<p>
-			夜景を一望できるバーがございます
-		</p>
-		<h4><a href="#">夜までお台場満喫</a></h4>
-		<p>
-			国際展示場正面門駅より徒歩5分です
-		</p>
-	</div>
-	<!-- ホテルの楽しみ方 -->
+	<section>
+		<section>
+			<h3>宿泊スタイルから探す</h3>
+			<p>
+				東京ベイサイドホテルでは、お客様のスタイルに合った、お得なサービスをご用意しております。
+			</p>
+			<p><a href="#">一覧はこちら</a></p>
+			<ul>
+				<li><img src="img/hayawari.jpg" alt="hayawari">
+				<a href="#">早割プラン</a></li>
+				<li><img src="img/kinen.jpg" alt="kinen">
+				<a href="#">記念日プラン</a></li>
+				<li><img src="img/teiban.jpg" alt="teiban">
+				<a href="#">定番プラン</a></li>
+			</ul>
+		</section>
+		<!-- 宿泊スタイル -->
 
-	<div>
-		<h3>お知らせ</h3>
-		<dl>
-			<dt>2015/4/20</dt>
-			<dd>ホームページからのご予約がお得です</dd>
-			<dt>2015/3/15</dt>
-			<dd>【4月1日より】無料送迎シャトルバスが生まれ変わります</dd>
-			<dt>2015/2/1</dt>
-			<dd>改修工事終了のお知らせ</dd>
-			<dt>2015/1/29</dt>
-			<dd>ランチタイム　営業再開のご案内</dd>
-		</dl>
-	</div>
-	<!-- お知らせ -->
+		<section>
+			<h3>ホテルの楽しみ方</h3>
+			<p>
+				ぐっと大人になる夜のお台場。東京ベイサイドホテルの楽しみ方をご紹介いたします。
+			</p>
+			<img src="img/kinenbi.jpg" alt="kinenbi">
+			<h4><a href="#">スペシャルな記念日</a></h4>
+			<p>
+				素敵な花束をご用意いたします
+			</p>
+			<img src="img/kanpai.jpg" alt="kanpai">
+			<h4><a href="#">輝く夜景に乾杯！</a></h4>
+			<p>
+				夜景を一望できるバーがございます
+			</p>
+			<img src="img/odaiba.jpg" alt="odaiba">
+			<h4><a href="#">夜までお台場満喫</a></h4>
+			<p>
+				国際展示場正面門駅より徒歩5分です
+			</p>
+		</section>
+		<!-- ホテルの楽しみ方 -->
+
+		<section>
+			<h3>お知らせ</h3>
+			<dl>
+				<dt>2015/4/20</dt>
+				<dd>ホームページからのご予約がお得です</dd>
+				<dt>2015/3/15</dt>
+				<dd>【4月1日より】無料送迎シャトルバスが生まれ変わります</dd>
+				<dt>2015/2/1</dt>
+				<dd>改修工事終了のお知らせ</dd>
+				<dt>2015/1/29</dt>
+				<dd>ランチタイム　営業再開のご案内</dd>
+			</dl>
+		</section>
+		<!-- お知らせ -->
+	</section>
+
 
 	<footer>
 		<ul>
