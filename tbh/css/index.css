@@ -1,0 +1,55 @@
+header{
+	width: 1280px;
+	height: 70px;
+	background-color: #0b1a2e;
+}
+
+header img{
+	margin: 20px 90px 20px 150px;
+}
+
+nav ul{
+	margin-bottom: 26px;
+	overflow: hidden;
+}
+
+nav ul li{
+	font-size: 14px;
+	float: left;
+	width: 150px;
+	margin-right: 10px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	width: 150px;
+}
+
+nav ul li a:hover{
+	color: #666;
+}
+
+.reserve{
+	background-color: #730927;
+	height: 95px;
+	width: 1280px;
+	margin-top: -3px;
+}
+
+h2{
+	font-size: 24px;
+	color: #333;
+	margin-top: 70px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.youkoso{
+	font-size: 18px;
+	color: #333;
+	line-height: 2;
+	text-align: center;
+	margin-bottom: 100px;
+}
