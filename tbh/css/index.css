@@ -1,12 +1,19 @@
 header{
-	width: 1280px;
 	height: 70px;
 	background-color: #0b1a2e;
 }
+/* ヘッダーの紺色 */
 
 header img{
 	margin: 20px 90px 20px 150px;
 }
+/* ヘッダーロゴ */
+
+body{
+	background-color: #fafafa;
+	width: 100%;
+}
+/* 全体の背景色 */
 
 nav ul{
 	margin-bottom: 26px;
@@ -30,26 +37,300 @@ nav ul li a:link, nav ul li a:visited{
 nav ul li a:hover{
 	color: #666;
 }
+/* 上メニュー */
+
+.inner{
+	width: 950px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* 全体の枠（w950） */
 
 .reserve{
 	background-color: #730927;
 	height: 95px;
-	width: 1280px;
-	margin-top: -3px;
 }
+/* 予約背景色 */
+
+.reserve dl{
+	font-size: 12px;
+	float: left;
+	margin-left: 100px;
+}
+
+.reserve dl dt{
+	color: #fff;
+	font-family: monospace;
+}
+
+.reserve_img{
+	display: block;
+	float: right;
+	margin-top: 26px;
+	margin-right: 100px;
+	display:block;
+	width: 145px;
+	height: 38px;
+	background-image:url(../img/searchs.jpg);
+}
+/* 検索するボタン */
+
+.reserve_img:hover{
+	background-position:left bottom;
+}
+/* 検索するボタンは押すと色が変わる */
 
 h2{
 	font-size: 24px;
 	color: #333;
-	margin-top: 70px;
+	margin-top: 80px;
 	margin-bottom: 45px;
 	text-align: center;
+	letter-spacing: 4px;
 }
+/* ようこそ！ */
 
-.youkoso{
+.youkoso_text{
 	font-size: 18px;
 	color: #333;
 	line-height: 2;
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
+/* 挨拶文 */
+
+.style{
+	overflow: hidden;
+}
+
+.style_h3{
+	font-size: 24px;
+	color: #333;
+	margin-top: 96px;
+}
+/* 宿泊スタイルから探す */
+
+.style_text{
+	font-size: 14px;
+	margin-top: 18px;
+	width: 240px;
+	line-height: 20px;
+}
+
+.ichiran a{
+	font-size: 12px;
+	color: #730927;
+	text-decoration: none;
+	}
+/* 一覧はこちら */
+
+.waku{
+	width: 626px;
+	float: right;
+}
+
+.hayawari{
+	float: left;
+	text-align: center;
+}
+/* style 早割プラン */
+
+.kinen{
+	float: left;
+	margin-left: 54px;
+	text-align: center;
+}
+/* style 記念日プラン */
+
+.teiban{
+	float: right;
+	text-align: center;
+}
+/* style 定番プラン */
+
+.style_ul{
+	font-size: 18px;
+	float: right;
+}
+
+.style_ul ul li a{
+	color: #333;
+	text-decoration: none;
+}
+
+.enjoy{
+	background-color: #0b1a2e;
+	width: 1280px;
+	height: 510px;
+	margin-top: 75px;
+	overflow: hidden;
+}
+/* ホテルの楽しみ方 */
+
+.enjoy h3{
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 4px;
+	margin-top: 52px;
+}
+
+.enjoy_text{
+	color: #fff;
+	font-size: 14px;
+	margin-top: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.kinenbi{
+	margin-top: 40px;
+	float: left;
+	text-align: center;
+}
+/* enjoy 記念日 */
+
+.kanpai{
+	margin-top: 40px;
+	float: left;
+	text-align: center;
+	margin-left: 14px;
+}
+/* enjoy 乾杯 */
+
+.odaiba{
+	margin-top: 40px;
+	float: right;
+	text-align: center;
+}
+/* enjoy お台場 */
+
+h4{
+	margin-top: 14px;
+	letter-spacing: 2px;
+}
+
+h4 a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+}
+/* enjoy テキスト大 */
+
+.enjoy-p_text{
+	color: #fff;
+	font-size: 12px;
+	margin-top: 10px;
+}
+/* enjoy　テキスト小 */
+
+.news h3{
+	margin-top: 120px;
+	color: #333;
+	font-size: 18px;
+	letter-spacing: 4px;
+}
+/* お知らせ */
+
+.news dl{
+	color: #333;
+	font-size: 12px;
+}
+
+.news dl dd a{
+	color: #333;
+}
+
+aside{
+	overflow: hidden;
+}
+
+.banner1{
+	float: left;
+}
+
+.banner2{
+	float: right;
+}
+
+footer{
+	background-color: #dbdbdb;
+	height: 285px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+/* フッター背景 */
+
+footer ul li dl{
+	color: #555;
+	font-family: monospace;
+}
+
+footer ul li dl dt{
+	font-size: 14px;
+	line-height: 2;
+}
+
+footer ul li dl dd{
+	font-size: 12px;
+	line-height: 2;
+}
+
+.sitemap dt{
+	margin-top: 30px;
+}
+
+.sitemap1{
+	width: 210px;
+	float: left;
+}
+
+.sitemap2{
+	width: 210px;
+	float: left;
+}
+
+.sitemap3{
+	width: 210px;
+	float: left;
+}
+
+.sitemap4{
+	width: 210px;
+	float: left;
+}
+
+.sitemap5{
+	float: right;
+}
+/* サイトマップ */
+
+.address{
+	font-size: 12px;
+	font-family: monospace;
+	color: #555;
+	margin-top: 225px;
+	line-height: 1.5;
+}
+/* 住所 */
+
+.footer-logo_img{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 26px;
+}
+/* フッターのロゴ */
+
+.icon{
+	float: right;
+	margin-bottom: 40px;
+}
+
+.copy{
+	text-align: center;
+	font-size: 10px;
+	color: #555;
+	margin-bottom: 20px;
+}
+/* コピーライト */

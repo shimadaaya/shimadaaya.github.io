@@ -41,7 +41,7 @@ ul, ol {
 }
 
 img{
-  vertical-align:0;
+  vertical-align:bottom;
   font-size:0;
   line-height:0;
 }
