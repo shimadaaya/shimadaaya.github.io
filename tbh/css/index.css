@@ -6,6 +6,7 @@ header{
 
 header img{
 	margin: 20px 90px 20px 150px;
+	float: left;
 }
 /* ヘッダーロゴ */
 
@@ -32,6 +33,8 @@ nav ul li a:link, nav ul li a:visited{
 	text-decoration: none;
 	display: block;
 	width: 150px;
+	margin-top: 26px;
+	font-family: monospace;
 }
 
 nav ul li a:hover{
@@ -98,10 +101,6 @@ h2{
 	margin-bottom: 80px;
 }
 /* 挨拶文 */
-
-.style{
-	overflow: hidden;
-}
 
 .style_h3{
 	font-size: 24px;
@@ -205,16 +204,18 @@ h2{
 }
 /* enjoy お台場 */
 
-h4{
-	margin-top: 14px;
-	letter-spacing: 2px;
+.enjoy-red{
+	background-color: #730927;
+	width: 307px;
+	height: 63px;
 }
 
 h4 a{
 	color: #fff;
 	font-size: 18px;
 	text-decoration: none;
-}
+	letter-spacing: 2px;
+	}
 /* enjoy テキスト大 */
 
 .enjoy-p_text{
