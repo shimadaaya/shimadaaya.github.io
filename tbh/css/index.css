@@ -57,15 +57,37 @@ nav ul li a:hover{
 }
 /* 予約背景色 */
 
+.reserve1{
+	float: left;
+}
+
+.reserve2{
+	float: right;
+}
+
 .reserve dl{
 	font-size: 12px;
 	float: left;
 	margin-left: 100px;
+	overflow: hidden;
+	margin-top: 35px;
 }
 
 .reserve dl dt{
 	color: #fff;
 	font-family: "arial";
+	clear: left;
+	float: left;
+	margin-bottom: 10px;
+	width: 100px;
+	padding-left: 5px;
+}
+/* ご宿泊日、泊・人部屋数*/
+
+.reserve dd{
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
 }
 
 .reserve_img{
@@ -409,8 +431,9 @@ footer ul li dl dd{
 .copy{
 	text-align: center;
 	font-size: 10px;
-	color: #555;
-	margin-bottom: 20px;
+	color: #666;
 	margin-top: 14px;
+	padding-bottom: 14px;
+	font-family: "arial";
 }
 /* コピーライト */
