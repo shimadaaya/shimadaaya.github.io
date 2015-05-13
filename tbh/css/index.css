@@ -13,6 +13,7 @@ header img{
 body{
 	background-color: #fafafa;
 	width: 100%;
+	font-family: serif;
 }
 /* 全体の背景色 */
 
@@ -102,6 +103,10 @@ h2{
 }
 /* 挨拶文 */
 
+.style_texts{
+	float: left;
+}
+
 .style_h3{
 	font-size: 24px;
 	color: #333;
@@ -116,16 +121,24 @@ h2{
 	line-height: 20px;
 }
 
+.ichiran{
+	margin-top: 75px;
+}
+
 .ichiran a{
 	font-size: 12px;
 	color: #730927;
 	text-decoration: none;
+	margin-left: 145px;
+	font-family: monospace;
+	letter-spacing: 1px;
 	}
 /* 一覧はこちら */
 
 .waku{
 	width: 626px;
 	float: right;
+	margin-top: 105px;
 }
 
 .hayawari{
@@ -134,6 +147,10 @@ h2{
 }
 /* style 早割プラン */
 
+.hayawari img{
+	margin-bottom: 10px;
+}
+
 .kinen{
 	float: left;
 	margin-left: 54px;
@@ -141,11 +158,19 @@ h2{
 }
 /* style 記念日プラン */
 
+.kinen img{
+	margin-bottom: 10px;
+}
+
 .teiban{
 	float: right;
 	text-align: center;
 }
 /* style 定番プラン */
+
+.teiban img{
+	margin-bottom: 10px;
+}
 
 .style_ul{
 	font-size: 18px;
@@ -208,6 +233,10 @@ h2{
 	background-color: #730927;
 	width: 307px;
 	height: 63px;
+}
+
+h4{
+	padding-top: 10px;
 }
 
 h4 a{
@@ -310,8 +339,8 @@ footer ul li dl dd{
 	font-size: 12px;
 	font-family: monospace;
 	color: #555;
-	margin-top: 225px;
 	line-height: 1.5;
+	float: left;
 }
 /* 住所 */
 
@@ -320,12 +349,14 @@ footer ul li dl dd{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 26px;
+	float: left;
 }
 /* フッターのロゴ */
 
 .icon{
 	float: right;
 	margin-bottom: 40px;
+	float: right;
 }
 
 .copy{
