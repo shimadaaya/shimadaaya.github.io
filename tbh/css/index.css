@@ -13,7 +13,7 @@ header img{
 body{
 	background-color: #fafafa;
 	width: 100%;
-	font-family: serif;
+	font-family: "Garamond";
 }
 /* 全体の背景色 */
 
@@ -27,15 +27,16 @@ nav ul li{
 	float: left;
 	width: 150px;
 	margin-right: 10px;
+	letter-spacing: 1px;
 }
 
 nav ul li a:link, nav ul li a:visited{
-	color: #fff;
+	color: #ddd;
 	text-decoration: none;
 	display: block;
 	width: 150px;
 	margin-top: 26px;
-	font-family: monospace;
+	font-family: arial;
 }
 
 nav ul li a:hover{
@@ -64,7 +65,7 @@ nav ul li a:hover{
 
 .reserve dl dt{
 	color: #fff;
-	font-family: monospace;
+	font-family: "arial";
 }
 
 .reserve_img{
@@ -127,7 +128,7 @@ h2{
 
 .ichiran a{
 	font-size: 12px;
-	color: #730927;
+	color: #ae1641;
 	text-decoration: none;
 	margin-left: 145px;
 	font-family: monospace;
@@ -144,6 +145,7 @@ h2{
 .hayawari{
 	float: left;
 	text-align: center;
+	letter-spacing: 1.5px;
 }
 /* style 早割プラン */
 
@@ -155,6 +157,7 @@ h2{
 	float: left;
 	margin-left:2px;
 	text-align: center;
+	letter-spacing: 1.5px;
 }
 /* style 記念日プラン */
 
@@ -165,6 +168,7 @@ h2{
 .teiban{
 	float: right;
 	text-align: center;
+	letter-spacing: 1.5px;
 }
 /* style 定番プラン */
 
@@ -243,7 +247,7 @@ h4 a{
 	color: #fff;
 	font-size: 18px;
 	text-decoration: none;
-	letter-spacing: 2px;
+	letter-spacing: 2.5px;
 	}
 /* enjoy テキスト大 */
 
@@ -251,25 +255,61 @@ h4 a{
 	color: #fff;
 	font-size: 12px;
 	margin-top: 10px;
+	letter-spacing: 1px;
+	color: #eae5e6;
 }
 /* enjoy　テキスト小 */
 
 .news h3{
-	margin-top: 120px;
-	color: #333;
+	margin-top: 60px;
+	color: #555;
 	font-size: 18px;
 	letter-spacing: 4px;
+	width: 175px;
+	height: 122px;
+	background-color: #dbdbdb;
+	text-align: center;
+	line-height: 7;
+	float: left;
+	margin-bottom: 40px;
 }
 /* お知らせ */
 
-.news dl{
-	color: #333;
-	font-size: 12px;
+.news dt{
+	clear: left;
+	float: left;
+	margin:0 0 0.8em;
+	width: 8em;
+	padding-left: 5px;
 }
 
-.news dl dd a{
-	color: #333;
+.news dd{
+	margin-bottom: 0.8em;
+	margin-left: 10em;
 }
+
+.news dl{
+	color: #555;
+	font-size: 12px;
+	font-family:"Gulim";
+	float: left;
+	width: 733px;
+	height: 92px;
+	background-color: #fff;
+	float: right;
+	border: 1px solid #dbdbdb;
+	line-height: 1.4;
+	padding: 14px 20px;
+	margin-top: 60px;
+}
+/* news 日付 */
+
+.news dl dd a{
+	color: #555;
+	font-family:"arial";
+	letter-spacing: 1.3px;
+}
+/* news　お知らせ */
 
 aside{
 	overflow: hidden;
@@ -293,7 +333,7 @@ aside{
 
 footer ul li dl{
 	color: #555;
-	font-family: monospace;
+	font-family: arial;
 }
 
 footer ul li dl dt{
@@ -307,7 +347,7 @@ footer ul li dl dd{
 }
 
 .footer dt{
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .sitemap{
@@ -347,7 +387,7 @@ footer ul li dl dd{
 
 .address{
 	font-size: 12px;
-	font-family: monospace;
+	font-family:"arial";
 	color: #555;
 	line-height: 1.5;
 	float: left;
@@ -371,5 +411,6 @@ footer ul li dl dd{
 	font-size: 10px;
 	color: #555;
 	margin-bottom: 20px;
+	margin-top: 14px;
 }
 /* コピーライト */
