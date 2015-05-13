@@ -63,6 +63,7 @@ nav ul li a:hover{
 
 .reserve2{
 	float: right;
+	margin-left: 35px;
 }
 
 .reserve dl{
@@ -70,17 +71,16 @@ nav ul li a:hover{
 	float: left;
 	margin-left: 100px;
 	overflow: hidden;
-	margin-top: 35px;
 }
 
-.reserve dl dt{
+.reserve dt{
 	color: #fff;
 	font-family: "arial";
 	clear: left;
 	float: left;
 	margin-bottom: 10px;
-	width: 100px;
 	padding-left: 5px;
+	margin-top: 35px;
 }
 /* ご宿泊日、泊・人部屋数*/
 
@@ -88,6 +88,7 @@ nav ul li a:hover{
 	margin-bottom: 10px;
 	margin-left: 10px;
 	float: left;
+	margin-top: 30px;
 }
 
 .reserve_img{
@@ -106,6 +107,12 @@ nav ul li a:hover{
 	background-position:left bottom;
 }
 /* 検索するボタンは押すと色が変わる */
+
+select{
+	background-color: #fff;
+	border: none;
+}
+
 
 h2{
 	font-size: 24px;
@@ -126,6 +133,10 @@ h2{
 }
 /* 挨拶文 */
 
+.room_img{
+	margin-bottom: 90px;
+}
+
 .style_texts{
 	float: left;
 }
@@ -133,7 +144,6 @@ h2{
 .style_h3{
 	font-size: 24px;
 	color: #333;
-	margin-top: 96px;
 }
 /* 宿泊スタイルから探す */
 
@@ -153,21 +163,30 @@ h2{
 	color: #ae1641;
 	text-decoration: none;
 	margin-left: 145px;
-	font-family: monospace;
+	font-family: "arial";
 	letter-spacing: 1px;
+	background: url(../img/mark.png) left center no-repeat;
+	width: 10px;
+	height: 10px;
 	}
 /* 一覧はこちら */
 
 .waku{
 	width: 626px;
 	float: right;
-	margin-top: 90px;
 }
 
 .hayawari{
 	float: left;
 	text-align: center;
 	letter-spacing: 1.5px;
+	width: 200px;
+	height: 188px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding-top: 20px;
+	background: url(../img/mark2.png) right bottom no-repeat;
+	background-position: 168px 180px;
 }
 /* style 早割プラン */
 
@@ -177,9 +196,16 @@ h2{
 
 .kinen{
 	float: left;
-	margin-left:2px;
+	margin-left:10px;
 	text-align: center;
 	letter-spacing: 1.5px;
+	width: 200px;
+	height: 188px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding-top: 20px;
+	background: url(../img/mark2.png) right bottom no-repeat;
+	background-position: 168px 180px;
 }
 /* style 記念日プラン */
 
@@ -191,6 +217,13 @@ h2{
 	float: right;
 	text-align: center;
 	letter-spacing: 1.5px;
+	width: 200px;
+	height: 188px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding-top: 20px;
+	background: url(../img/mark2.png) right bottom no-repeat;
+	background-position: 168px 180px;
 }
 /* style 定番プラン */
 
@@ -212,7 +245,7 @@ h2{
 	background-color: #0b1a2e;
 	width: 1280px;
 	height: 510px;
-	margin-top: 75px;
+	margin-top: 85px;
 	overflow: hidden;
 }
 /* ホテルの楽しみ方 */
@@ -380,6 +413,7 @@ footer ul li dl dd{
 
 .sitemap ul li dd{
 	text-indent: 1em;
+	background: url(../img/sankaku.png) left center no-repeat;
 }
 
 .sitemap1{

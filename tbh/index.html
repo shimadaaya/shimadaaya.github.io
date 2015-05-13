@@ -33,44 +33,70 @@
 	<form action="reserve.php">
 		<dl>
 			<div class="reserve1">
-			<dt>ご宿泊日</dt>
-			<dd>
-				<select name="yearmonth" id="yearmonth">
-					<option value="201505">2015年5月</option>
-					<option value="201506">2015年6月</option>
-				</select>
-				<select name="day" id="day">
-					<option value="14">14日</option>
-					<option value="15">15日</option>
-					<option value="16">16日</option>
-					<option value="17">17日</option>
-					<option value="18">18日</option>
-					<option value="19">19日</option>
-					<option value="20">20日</option>
-				</select>
-			</dd>
+				<dt>ご宿泊日</dt>
+				<dd>
+					<select name="yearmonth" id="yearmonth">
+						<option value="201505">2015年5月</option>
+						<option value="201506">2015年6月</option>
+						<option value="201507">2015年7月</option>
+						<option value="201508">2015年8月</option>
+					</select>
+					<select name="day" id="day">
+						<option value="01">1日</option>
+						<option value="02">2日</option>
+						<option value="03">3日</option>
+						<option value="04">4日</option>
+						<option value="05">5日</option>
+						<option value="06">6日</option>
+						<option value="07">7日</option>
+						<option value="08">8日</option>
+						<option value="09">9日</option>
+						<option value="10">10日</option>
+						<option value="11">11日</option>
+						<option value="12">12日</option>
+						<option value="13">13日</option>
+						<option value="14">14日</option>
+						<option value="15">15日</option>
+						<option value="16">16日</option>
+						<option value="17">17日</option>
+						<option value="18">18日</option>
+						<option value="19">19日</option>
+						<option value="20">20日</option>
+						<option value="21">21日</option>
+						<option value="22">22日</option>
+						<option value="23">23日</option>
+						<option value="24">24日</option>
+						<option value="25">25日</option>
+						<option value="26">26日</option>
+						<option value="27">27日</option>
+						<option value="28">28日</option>
+						<option value="29">29日</option>
+						<option value="30">30日</option>
+						<option value="31">31日</option>
+					</select>
+				</dd>
 			</div>
 			<div class="reserve2">
-			<dt>
-				泊・人・部屋数
-			</dt>
-			<dd>
-				<select name="stay" id="stay">
-					<option value="1">1泊</option>
-					<option value="2">2泊</option>
-					<option value="3">3泊</option>
-				</select>
-				<select name="people" id="people">
-					<option value="1">1人</option>
-					<option value="2">2人</option>
-					<option value="3">3人</option>
-				</select>
-				<select name="room" id="room">
-					<option value="1">1部屋</option>
-					<option value="2">2部屋</option>
-					<option value="3">3部屋</option>
-				</select>
-			</dd>
+				<dt>
+					泊・人・部屋数
+				</dt>
+				<dd>
+					<select name="stay" id="stay">
+						<option value="1">1泊</option>
+						<option value="2">2泊</option>
+						<option value="3">3泊</option>
+					</select>
+					<select name="people" id="people">
+						<option value="1">1人</option>
+						<option value="2">2人</option>
+						<option value="3">3人</option>
+					</select>
+					<select name="room" id="room">
+						<option value="1">1部屋</option>
+						<option value="2">2部屋</option>
+						<option value="3">3部屋</option>
+					</select>
+				</dd>
 		</div>
 		</dl>
 	</form>
@@ -82,9 +108,9 @@
 
 	<section>
 		<h2>ようこそ、東京ベイサイドホテルへ。</h2>
-		<p class="youkoso_text">NYモダンな外観とこだわりのインテリアから生まれる心地よい贅沢。<br>洗練された空間とおもてなしで、これまでにない満足感をお約束いたします。<br>ゆっくりおとなのお台場を楽しんでみてはいかがでしょう？</p>
+		<p class="youkoso_text">NYモダンな外観とこだわりのインテリアから生まれる心地よい贅沢。<br>洗練された空間とおもてなしで、これまでにない満足感をお約束いたします。<br>ゆっくりと大人のお台場を楽しんでみてはいかがでしょう？</p>
 
-		<img src="img/room.jpg" alt="room">
+		<div class="room_img"><img src="img/room.jpg" alt="room"></div>
 	</section>
 	<!-- ようこそ -->
 
@@ -97,19 +123,19 @@
 				東京ベイサイドホテルでは、お客様のスタイルに合った、お得なサービスをご用意しております。
 			</p>
 
-			<div class="ichiran"><p><a href="#"><img src="img/mark.png" alt="三角">　一覧はこちら</a></p></div>
+			<div class="ichiran"><p><a href="#">　一覧はこちら</a></p></div>
 			</div>
 
 			<div class="style_ul">
 			<div class="waku">
 			<ul>
-				<li class="hayawari"><a href="#"><img src="img/hayawari.png" alt="hayawari">
+				<li class="hayawari"><a href="#"><img src="img/hayawari.jpg" alt="hayawari">
 				<br>早割プラン</a></li>
 
-				<li class="kinen"><a href="#"><img src="img/kinenbi.png" alt="kinen">
+				<li class="kinen"><a href="#"><img src="img/kinen.jpg" alt="kinen">
 				<br>記念日プラン</a></li>
 
-				<li class="teiban"><a href="#"><img src="img/teiban.png" alt="teiban">
+				<li class="teiban"><a href="#"><img src="img/teiban.jpg" alt="teiban">
 				<br>定番プラン</a></li>
 			</ul>
 		</div>
