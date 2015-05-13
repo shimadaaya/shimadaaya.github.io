@@ -138,7 +138,7 @@ h2{
 .waku{
 	width: 626px;
 	float: right;
-	margin-top: 105px;
+	margin-top: 90px;
 }
 
 .hayawari{
@@ -153,7 +153,7 @@ h2{
 
 .kinen{
 	float: left;
-	margin-left: 54px;
+	margin-left:2px;
 	text-align: center;
 }
 /* style 記念日プラン */
@@ -283,7 +283,7 @@ aside{
 	float: right;
 }
 
-footer{
+.footer{
 	background-color: #dbdbdb;
 	height: 285px;
 	margin-top: 50px;
@@ -306,8 +306,18 @@ footer ul li dl dd{
 	line-height: 2;
 }
 
-.sitemap dt{
+.footer dt{
 	margin-top: 30px;
+}
+
+.sitemap{
+	border-bottom: 1px solid #ccc;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.sitemap ul li dd{
+	text-indent: 1em;
 }
 
 .sitemap1{
@@ -345,11 +355,8 @@ footer ul li dl dd{
 /* 住所 */
 
 .footer-logo_img{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 26px;
 	float: left;
+	margin-left: 148px;
 }
 /* フッターのロゴ */
 
