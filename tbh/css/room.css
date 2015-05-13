@@ -1,0 +1,297 @@
+header{
+	height: 70px;
+	background-color: #0b1a2e;
+}
+/* ヘッダーの紺色 */
+
+header img{
+	margin: 20px 90px 20px 150px;
+	float: left;
+}
+/* ヘッダーロゴ */
+
+body{
+	background-color: #fafafa;
+	width: 100%;
+	font-family: "Garamond";
+}
+/* 全体の背景色 */
+
+nav ul{
+	margin-bottom: 26px;
+	overflow: hidden;
+}
+
+nav ul li{
+	font-size: 14px;
+	float: left;
+	width: 130px;
+	margin-right: 20px;
+	letter-spacing: 1px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+	color: #ddd;
+	text-decoration: none;
+	display: block;
+	margin-top: 26px;
+	font-family: arial;
+}
+
+nav ul li a:hover{
+	color: #666;
+}
+/* 上メニュー */
+
+.inner{
+	width: 950px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* 全体の枠（w950） */
+
+.main_img{
+	text-align: center;
+}
+/* メイン画像 */
+
+h2{
+	font-size: 24px;
+	color: #333;
+	letter-spacing: 2px;
+	border-bottom: double 3px #999;
+	line-height: 2;
+	width: 308px;
+	margin:0 auto 45px;
+}
+/* スイートルーム */
+
+.room-text{
+	float: left;
+}
+
+.room-text h3{
+	font-size: 24px;
+	color: #333;
+	margin-top: 40px;
+	letter-spacing: 2px;
+}
+/* 一面に広がる部屋はあなたのもの */
+
+.room-text p{
+	color: #333;
+	width: 500px;
+	font-size: 14px;
+	margin-top: 20px;
+	letter-spacing: 0.7px;
+	line-height: 1.45;
+}
+/* 部屋の説明 */
+
+.room-text p a{
+	color: #ae1641;
+	text-decoration: none;
+	text-indent: 1em;
+	background: url(../img/mark.png) left center no-repeat;
+}
+/* 客室ロケーション */
+
+.room-gaiyou{
+	float: right;
+	margin-top: 43px;
+	font-family: "arial";
+	letter-spacing: 1px;
+	line-height: 2;
+	font-size: 14px;
+	color: #555;
+}
+/* 部屋詳細 */
+
+
+.room-gaiyou table{
+	width: 270px;
+	border-top: 2px solid #999;
+	border-bottom: 2px solid #999;
+}
+/* 詳細　上下ライン */
+
+.room-gaiyou th{
+	border-bottom: 1px solid #ccc;
+	padding-left: 14px;
+}
+/* 詳細　太文字 */
+
+.room-gaiyou td{
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px;
+}
+/* 詳細　細文字 */
+
+.room-gaiyou img{
+	margin-top: 22px;
+}
+/* 予約ボタン */
+
+.service-set{
+	background-color: #0b1a2e;
+	height: 426px;
+	margin-top: 66px;
+	color: #fff;
+}
+/* サービス　背景と文字 */
+
+.service-set h4{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+/* サービス　大文字 */
+
+.service-set p{
+	font-family: "arial";
+	font-size: 13px;
+	width: 190px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+/* サービス　小文字 */
+
+.amenity-set{
+	color: #686868;
+}
+
+.amenity-set img{
+	margin-top: 75px;
+}
+/* 間取り図 */
+
+.amenity-set h4{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+/* アメニティ　大文字 */
+
+.amenity-set ul{
+	font-family: "arial";
+	font-size: 12px;
+	letter-spacing: 0.7px;
+	line-height: 1.5;
+}
+/* アメニティ　小文字 */
+
+.amenity-box{
+	width: 670px;
+	height: 264px;
+	background-color: #fff;
+	border:1px solid #dbdbdb ;
+	float: right;
+	margin-top: 100px;
+}
+/* アメニティ　背景ボックス */
+
+.amenity-1{
+	float: left;
+}
+
+.amenity-2{
+	float: right;
+}
+
+.other-room h3{
+	font-size: 18px;
+	text-align: center;
+}
+
+
+.footer{
+	background-color: #dbdbdb;
+	height: 285px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+/* フッター背景 */
+
+footer ul li dl{
+	color: #555;
+	font-family: arial;
+}
+
+footer ul li dl dt{
+	font-size: 14px;
+	line-height: 2;
+}
+
+footer ul li dl dd{
+	font-size: 12px;
+	line-height: 2;
+}
+
+.footer dt{
+	margin-top: 25px;
+}
+
+.sitemap{
+	border-bottom: 1px solid #ccc;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.sitemap ul li dd{
+	text-indent: 1em;
+	background: url(../img/) left center no-repeat;
+}
+
+.sitemap1{
+	width: 210px;
+	float: left;
+}
+
+.sitemap2{
+	width: 210px;
+	float: left;
+}
+
+.sitemap3{
+	width: 210px;
+	float: left;
+}
+
+.sitemap4{
+	width: 210px;
+	float: left;
+}
+
+.sitemap5{
+	float: right;
+}
+/* サイトマップ */
+
+.address{
+	font-size: 12px;
+	font-family:"arial";
+	color: #555;
+	line-height: 1.5;
+	float: left;
+}
+/* 住所 */
+
+.footer-logo_img{
+	float: left;
+	margin-left: 148px;
+}
+/* フッターのロゴ */
+
+.icon{
+	float: right;
+	margin-bottom: 40px;
+	float: right;
+}
+
+.copy{
+	text-align: center;
+	font-size: 10px;
+	color: #666;
+	margin-top: 14px;
+	padding-bottom: 14px;
+	font-family: "arial";
+}
+/* コピーライト */

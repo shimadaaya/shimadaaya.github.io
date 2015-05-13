@@ -3,17 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>suite room</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/room.css">
 </head>
 <body>
 	<header>
 		<h1><a href="../tbh/index.html">
-		<img src="img/logo.jpg" alt="TOKYO BAYSIDE HOTEL 東京ベイサイドホテル"></a></h1>
+		<img src="img/hlogo.png" alt="TOKYO BAYSIDE HOTEL 東京ベイサイドホテル"></a></h1>
 		<nav>
 			<ul>
 				<li><a href="#">ご宿泊</a></li>
 				<li><a href="#">バーラウンジ</a></li>
 				<li><a href="#">お食事</a></li>
-				<li><a href="#">フォトギャラリー</a></li>
+				<li><a href="#">ギャラリー</a></li>
 				<li><a href="#">アクセス</a></li>
 			</ul>
 		</nav>
@@ -28,115 +30,123 @@
 	</div>
 	<!-- パンくず -->
 
-	<section>
+	<section class="main_img">
 		<h2>スイートルーム</h2>
 		<img src="img/suiteroom.jpg" alt="suiteroom">
 	</section>
 
-	<section>
-		<h3>一面に広がる夜景は、あなたのもの。</h3>
-		<p>最も見晴らしの良い位置にあるスイートルーム。<br>モダンデザインのインテリアに囲まれて、夜景を楽しむことができます。<br>スタイリッシュでありながら、自宅のようにくつろげるリビングルームでは上質で豊かな時間をお過ごしいただけます。</p>
-		<p><a href="#">客室ロケーション</a></p>
-	</section>
-	<!-- 部屋説明 -->
+	<div class="inner">
+		<section class="room-text">
+			<h3>一面に広がる夜景は、あなたのもの。</h3>
+			<p>最も見晴らしの良い位置にあるスイートルーム。<br>モダンデザインのインテリアに囲まれて、夜景を楽しむことができます。<br>スタイリッシュでありながら、自宅のようにくつろげるリビングルームでは上質で豊かな時間をお過ごしいただけます。</p>
+			<p><a href="#">客室ロケーション</a></p>
+		</section>
+		<!-- 部屋説明 -->
 
-	<div>
-		<table>
-			<tr>
-				<th>
-				料金
-				</th>
-				<td>
-					〜￥57.800（税込み）
-				</td>
-			</tr>
-			<tr>
-				<th>
-					広さ
-				</th>
-				<td>
-					54㎡
-				</td>
-			</tr>
-			<tr>
-				<th>
-					客室数
-				</th>
-				<td>
-					2部屋
-				</td>
-			</tr>
-		</table>
-	</div>
-	<div>
-	<a href="#"><img src="img/yoyaku.jpg" alt="yoyaku"></a>
+		<div class="room-gaiyou">
+			<table>
+				<tr>
+					<th>
+					料金：
+					</th>
+					<td>
+						〜￥57.800（税込み）
+					</td>
+				</tr>
+				<tr>
+					<th>
+						広さ：
+					</th>
+					<td>
+						54㎡
+					</td>
+				</tr>
+				<tr>
+					<th>
+						客室数：
+					</th>
+					<td>
+						2部屋
+					</td>
+				</tr>
+			</table>
+			<div>
+			<a href="#"><img src="img/yoyaku.jpg" alt="yoyaku"></a>
+			</div>
+		</div>
 	</div>
 	<!-- 部屋詳細表 -->
 
-	<section>
-		<section>
-			<img src="img/pajama.jpg" alt="pajama">
-			<h4>ナイトウェア</h4>
-			<p>肌触りの良いコットン100%のオリジナルナイトウェア。お好きな柄をお選びいただけます。</p>
-		</section>
-		<section>
-			<img src="img/bath.jpg" alt="bath">
-			<h4>バスアメニティ</h4>
-			<p>東京ベイサイドホテルオリジナルの、使い心地にこだわったアメニティでお風呂も快適です。</p>
-		</section>
-		<section>
-			<img src="img/makura.jpg" alt="makura">
-			<h4>選べるまくら</h4>
-			<p>まくらは4種類の高さからお選びいただくことができます。（お一人様３つまで）</p>
-		</section>
-		<section>
-			<img src="img/este.jpg" alt="este">
-			<h4>マッサージサービス（有料）</h4>
-			<p>プロのエステティシャンによるマッサージサービスがございます。お気軽にお申し付けください。</p>
-		</section>
+	<section class="service-set">
+		<div class="inner">
+			<section>
+				<img src="img/pajama.jpg" alt="pajama">
+				<h4>ナイトウェア</h4>
+				<p>肌触りの良いコットン100%のオリジナルナイトウェア。お好きな柄をお選びいただけます。</p>
+			</section>
+			<section>
+				<img src="img/bath.jpg" alt="bath">
+				<h4>バスアメニティ</h4>
+				<p>東京ベイサイドホテルオリジナルの、使い心地にこだわったアメニティでお風呂も快適です。</p>
+			</section>
+			<section>
+				<img src="img/makura.jpg" alt="makura">
+				<h4>選べるまくら</h4>
+				<p>まくらは4種類の高さからお選びいただくことができます。（お一人様３つまで）</p>
+			</section>
+			<section>
+				<img src="img/este.jpg" alt="este">
+				<h4>マッサージサービス（有料）</h4>
+				<p>プロのエステティシャンによるマッサージサービスがございます。お気軽にお申し付けください。</p>
+			</section>
+		</div>
 	</section>
-	<!-- イチオシ -->
+	<!-- サービス -->
 
-	<section>
-		<img src="img/madori.jpg" alt="madori">
-		<section>
-			<h4>ルームアメニティ</h4>
-			<ul>
-				<li>ナイトウェア</li>
-				<li>バスローブ</li>
-				<li>スリッパ</li>
-				<li>シャンプー</li>
-				<li>コンディショナー</li>
-				<li>ボディソープ</li>
-				<li>フェイシャルソープ</li>
-				<li>バスソルト</li>
-				<li>化粧水</li>
-				<li>ボディタオル</li>
-				<li>ヘアブラシ</li>
-				<li>シャワーキャップ</li>
-				<li>ひげそり</li>
-				<li>歯ブラシ</li>
-				<li>コットン</li>
-				<li>ミネラルウォーター</li>
-			</ul>
-		</section>
-		<section>
-			<h4>室内設備</h4>
-			<ul>
-				<li>液晶テレビ</li>
-				<li>シャワートイレ</li>
-				<li>ユニットバス内電話</li>
-				<li>冷蔵庫</li>
-				<li>イオンドライヤー</li>
-				<li>ズボンプレッサー</li>
-				<li>高速インターネット（無料）</li>
-				<li>ビデオ・オン・デマンド（有料）</li>
-			</ul>
-		</section>
+	<section class="amenity-set">
+		<div class="inner">
+			<img src="img/madori.jpg" alt="madori">
+			<div class="amenity-box">
+				<div　class="amenity-1">
+					<h4>ルームアメニティ</h4>
+					<ul>
+						<li>・ナイトウェア</li>
+						<li>・バスローブ</li>
+						<li>・スリッパ</li>
+						<li>・シャンプー</li>
+						<li>・コンディショナー</li>
+						<li>・ボディソープ</li>
+						<li>・フェイシャルソープ</li>
+						<li>・バスソルト</li>
+						<li>・化粧水</li>
+						<li>・ボディタオル</li>
+						<li>・ヘアブラシ</li>
+						<li>・シャワーキャップ</li>
+						<li>・ひげそり</li>
+						<li>・歯ブラシ</li>
+						<li>・コットン</li>
+						<li>・ミネラルウォーター</li>
+					</ul>
+				</div>
+				<div class="amenity-2">
+					<h4>室内設備</h4>
+					<ul>
+						<li>・液晶テレビ</li>
+						<li>・シャワートイレ</li>
+						<li>・ユニットバス内電話</li>
+						<li>・冷蔵庫</li>
+						<li>・イオンドライヤー</li>
+						<li>・ズボンプレッサー</li>
+						<li>・高速インターネット（無料）</li>
+						<li>・ビデオ・オン・デマンド（有料）</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- アメニティ、設備 -->
 
-	<section>
+	<section class="other-room">
 		<h3>その他の客室</h3>
 		<ul>
 			<li><a href="#"><img src="img/room1.jpg" alt="1">シングル</a></li>
@@ -148,8 +158,11 @@
 	<!-- その他の部屋 -->
 
 	<footer>
+		<div class="footer">
+			<div class="sitemap">
+			<div class="inner">
 		<ul>
-			<li><dl>
+			<li class="sitemap1"><dl>
 				<dt>ご宿泊</dt>
 				<dd>コンセプト</dd>
 				<dd>シングルルーム</dd>
@@ -158,20 +171,23 @@
 				<dd>スイートルーム</dd>
 				<dd>バリアフリー</dd>
 			</dl></li>
-			<li><dl>
+
+			<li class="sitemap2"><dl>
 				<dt>バー・レストラン</dt>
 				<dd>コンセプト</dd>
 				<dd>バーラウンジ</dd>
 				<dd>レストラン</dd>
 			</dl></li>
-			<li><dl>
+
+			<li class="sitemap3"><dl>
 				<dt>アクセス・周辺案内</dt>
 				<dd>交通案内</dd>
 				<dd>電車でのアクセス</dd>
 				<dd>お車でのアクセス</dd>
 				<dd>周辺案内</dd>
 			</dl></li>
-			<li><dl>
+
+			<li class="sitemap4"><dl>
 				<dt>その他</dt>
 				<dd>インフォメーション</dd>
 				<dd>サイトマップ</dd>
@@ -179,22 +195,37 @@
 				<dd>企業・採用情報</dd>
 				<dd>Language</dd>
 			</dl></li>
-			<li><dl>
+
+			<li class="sitemap5"><dl>
 				<dt>よくあるご質問</dt>
 				<dd>宿泊</dd>
 				<dd>レストラン・バー</dd>
 				<dd>ホテル全般</dd>
 			</dl></li>
 		</ul>
+	</div>
+	</div>
 
-		<p>
+	<div class="inner">
+		<p class="address">
 			〒135-0063　東京都江東区有明3-1-15<br>TEL:03-6700-0001
 		</p>
 
-		<h1><a href="../tbh/index.html"><img src="img/footerlogo.jpg" alt="TOKYO BAYSIDE HOTEL 東京ベイサイドホテル"></a></h1>
+		<div class="footer-logo_img">
+		<h1><a href="../tbh/index.html"><img src="img/footerlogo.png" alt="TOKYO BAYSIDE HOTEL 東京ベイサイドホテル"></a></h1>
+		</div>
 
-		<p><small>Copyright &copy; RESORTTRUST Allright reserved.</small></p>
+		<div class="icon">
+			<img src="img/icon.png" alt="icon">
+		</div>
+		</div>
+
+
+	<div class="copy"><p><small>Copyright &copy; RESORTTRUST Allright reserved.</small></p></div>
+
+		</div>
+		<!-- inner -->
 	</footer>
-
+<!-- 	フッター -->
 </body>
 </html>
