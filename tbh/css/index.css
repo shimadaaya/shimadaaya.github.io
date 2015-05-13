@@ -50,6 +50,18 @@ nav ul li a:hover{
 }
 /* 全体の枠（w950） */
 
+.main_img{
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 4px;
+	padding-top: 150px;
+	width: 100%;
+	height: 400px;
+	background: url(../img/main1.jpg)center top no-repeat;
+	background-size:cover;
+}
+
 .reserve{
 	background-color: #730927;
 	height: 95px;
@@ -61,24 +73,21 @@ nav ul li a:hover{
 }
 
 .reserve2{
-	float: right;
-	margin-left: 35px;
+	float: left;
+	margin-left: 10px;
 }
 
 .reserve dl{
 	font-size: 12px;
-	float: left;
-	margin-left: 100px;
+	margin-left: 80px;
 	overflow: hidden;
 }
 
 .reserve dt{
 	color: #fff;
 	font-family: "arial";
-	clear: left;
 	float: left;
 	margin-bottom: 10px;
-	padding-left: 5px;
 	margin-top: 40px;
 }
 /* ご宿泊日、泊・人部屋数*/
@@ -94,7 +103,7 @@ nav ul li a:hover{
 	display: block;
 	float: right;
 	margin-top: 26px;
-	margin-right: 100px;
+	margin-right: 80px;
 	display:block;
 	width: 145px;
 	height: 38px;
@@ -134,6 +143,10 @@ h2{
 
 .room_img{
 	margin-bottom: 90px;
+	width: 100%;
+	height: 330px;
+	background: url(../img/room.jpg)center top no-repeat;
+	background-size:cover;
 }
 
 .style_texts{
@@ -230,19 +243,18 @@ h2{
 	margin-bottom: 10px;
 }
 
-.style_ul{
+.style_dl{
 	font-size: 18px;
 	float: right;
 }
 
-.style_ul ul li a{
+.style_dl a{
 	color: #333;
 	text-decoration: none;
 }
 
 .enjoy{
 	background-color: #0b1a2e;
-	width: 1280px;
 	height: 510px;
 	margin-top: 85px;
 	overflow: hidden;
