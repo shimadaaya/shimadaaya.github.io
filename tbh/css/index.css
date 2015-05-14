@@ -1,6 +1,6 @@
 header{
 	height: 70px;
-	background-color: #0b1a2e;
+	background-color: #112848;
 }
 /* ヘッダーの紺色 */
 
@@ -39,7 +39,7 @@ nav ul li a:link, nav ul li a:visited{
 }
 
 nav ul li a:hover{
-	color: #666;
+	color: #ae1641;
 }
 /* 上メニュー */
 
@@ -254,7 +254,7 @@ h2{
 }
 
 .enjoy{
-	background-color: #0b1a2e;
+	background-color: #112848;
 	height: 510px;
 	margin-top: 85px;
 	overflow: hidden;

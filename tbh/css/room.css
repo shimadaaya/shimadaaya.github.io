@@ -1,6 +1,6 @@
 header{
 	height: 70px;
-	background-color: #0b1a2e;
+	background-color: #112848;
 }
 /* ヘッダーの紺色 */
 
@@ -39,7 +39,7 @@ nav ul li a:link, nav ul li a:visited{
 }
 
 nav ul li a:hover{
-	color: #666;
+	color: #ae1641;
 }
 /* 上メニュー */
 
@@ -50,21 +50,41 @@ nav ul li a:hover{
 }
 /* 全体の枠（w950） */
 
-.main_img{
-	text-align: center;
+.pankuzu{
+	color: #555;
+	font-family: "arial";
+	font-size: 12px;
+	margin-top: 55px;
+	overflow: hidden;
+	background:url(../img/marks.png) left center no-repeat;
+	background-position: 43px;
 }
-/* メイン画像 */
+
+.pankuzu ol li{
+	float: left;
+	margin-right: 40px;
+}
+
+.pankuzu ol li:last-child{
+	color: #ae1641;
+}
+/* パンくず */
 
 h2{
 	font-size: 24px;
 	color: #333;
 	letter-spacing: 2px;
-	border-bottom: double 3px #999;
+	border-bottom: double 3px #dbdbdb;
 	line-height: 2;
 	width: 308px;
-	margin:0 auto 45px;
+	margin:30px auto 45px;
 }
 /* スイートルーム */
+
+.main_img{
+	text-align: center;
+}
+/* メイン画像 */
 
 .room-text{
 	float: left;
@@ -90,8 +110,9 @@ h2{
 
 .room-text p a{
 	color: #ae1641;
+	font-family: "arial";
+	font-size: 12px;
 	text-decoration: none;
-	text-indent: 1em;
 	background: url(../img/mark.png) left center no-repeat;
 }
 /* 客室ロケーション */
@@ -107,16 +128,15 @@ h2{
 }
 /* 部屋詳細 */
 
-
 .room-gaiyou table{
 	width: 270px;
-	border-top: 2px solid #999;
-	border-bottom: 2px solid #999;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
 }
 /* 詳細　上下ライン */
 
 .room-gaiyou th{
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #dbdbdb;
 	padding-left: 14px;
 }
 /* 詳細　太文字 */
@@ -133,7 +153,7 @@ h2{
 /* 予約ボタン */
 
 .service-set{
-	background-color: #0b1a2e;
+	background-color: #112848;
 	height: 426px;
 	margin-top: 66px;
 	color: #fff;
@@ -152,12 +172,82 @@ h2{
 	width: 190px;
 	letter-spacing: 1px;
 	line-height: 1.5;
+	margin-top: 10px;
 }
 /* サービス　小文字 */
+
+.pajama{
+	margin-top: 50px;
+	margin-left: 40px;
+	float: left;
+}
+
+.pajama img{
+	float: left;
+}
+
+.pajama_text{
+	width: 220px;
+	float: left;
+	margin-left: 30px;
+}
+/* ナイトウェア */
+
+.bath{
+	margin-top: 50px;
+	margin-right: 40px;
+	float: right;
+}
+
+.bath img{
+	float: left;
+}
+
+.bath_text{
+	width: 220px;
+	float: left;
+	margin-left: 30px;
+}
+/* バスアメニティ */
+
+.makura{
+	margin-top: 35px;
+	margin-left: 40px;
+	float: left;
+}
+
+.makura img{
+	float: left;
+}
+
+.makura_text{
+	width: 220px;
+	float: left;
+	margin-left: 30px;
+}
+/* 選べるまくら */
+
+.este{
+	margin-top: 35px;
+	margin-right: 40px;
+	float: right;
+}
+
+.este img{
+	float: left;
+}
+
+.este_text{
+	width: 220px;
+	float: left;
+	margin-left: 30px;
+}
+/* マッサージ */
 
 .amenity-set{
 	color: #686868;
 }
+/* アメニティ・設備 */
 
 .amenity-set img{
 	margin-top: 75px;
@@ -199,7 +289,11 @@ h2{
 .other-room h3{
 	font-size: 18px;
 	text-align: center;
+	border-top: double 3px #dbdbdb;
+	margin:75 auto 45px;
+	padding-top: 35px;
 }
+/* その他の部屋 */
 
 
 .footer{
@@ -237,7 +331,7 @@ footer ul li dl dd{
 
 .sitemap ul li dd{
 	text-indent: 1em;
-	background: url(../img/) left center no-repeat;
+	background: url(../img/sankaku.png) left center no-repeat;
 }
 
 .sitemap1{
