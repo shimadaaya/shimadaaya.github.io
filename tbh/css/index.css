@@ -61,6 +61,7 @@ nav ul li a:hover{
 	background: url(../img/main1.jpg)center top no-repeat;
 	background-size:cover;
 }
+/* とっておきの夜が、ございます */
 
 .reserve{
 	background-color: #730927;
@@ -124,7 +125,7 @@ select{
 
 h2{
 	font-size: 24px;
-	color: #333;
+	color: #555;
 	margin-top: 80px;
 	margin-bottom: 45px;
 	text-align: center;
@@ -134,7 +135,7 @@ h2{
 
 .youkoso_text{
 	font-size: 18px;
-	color: #333;
+	color: #555;
 	line-height: 2;
 	text-align: center;
 	margin-bottom: 80px;
@@ -155,7 +156,7 @@ h2{
 
 .style_h3{
 	font-size: 24px;
-	color: #333;
+	color: #555;
 }
 /* 宿泊スタイルから探す */
 
@@ -249,7 +250,7 @@ h2{
 }
 
 .style_dl a{
-	color: #333;
+	color: #555;
 	text-decoration: none;
 }
 
@@ -262,7 +263,7 @@ h2{
 /* ホテルの楽しみ方 */
 
 .enjoy h3{
-	color: #fff;
+	color: #eee;
 	font-size: 24px;
 	text-align: center;
 	letter-spacing: 4px;
@@ -270,7 +271,7 @@ h2{
 }
 
 .enjoy_text{
-	color: #fff;
+	color: #eee;
 	font-size: 14px;
 	margin-top: 20px;
 	text-align: center;
@@ -310,7 +311,7 @@ h4{
 }
 
 h4 a{
-	color: #fff;
+	color: #eee;
 	font-size: 18px;
 	text-decoration: none;
 	letter-spacing: 2.5px;
@@ -318,7 +319,7 @@ h4 a{
 /* enjoy テキスト大 */
 
 .enjoy-p_text{
-	color: #fff;
+	color: #eee;
 	font-size: 12px;
 	margin-top: 10px;
 	letter-spacing: 1px;

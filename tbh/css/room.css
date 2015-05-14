@@ -72,7 +72,7 @@ nav ul li a:hover{
 
 h2{
 	font-size: 24px;
-	color: #333;
+	color: #555;
 	letter-spacing: 2px;
 	border-bottom: double 3px #dbdbdb;
 	line-height: 2;
@@ -92,14 +92,14 @@ h2{
 
 .room-text h3{
 	font-size: 24px;
-	color: #333;
+	color: #555;
 	margin-top: 40px;
 	letter-spacing: 2px;
 }
 /* 一面に広がる部屋はあなたのもの */
 
 .room-text p{
-	color: #333;
+	color: #555;
 	width: 500px;
 	font-size: 14px;
 	margin-top: 20px;
@@ -156,7 +156,7 @@ h2{
 	background-color: #112848;
 	height: 426px;
 	margin-top: 66px;
-	color: #fff;
+	color: #eee;
 }
 /* サービス　背景と文字 */
 
@@ -171,13 +171,13 @@ h2{
 	font-size: 13px;
 	width: 190px;
 	letter-spacing: 1px;
-	line-height: 1.5;
+	line-height: 1.6;
 	margin-top: 10px;
 }
 /* サービス　小文字 */
 
 .pajama{
-	margin-top: 50px;
+	margin-top: 55px;
 	margin-left: 40px;
 	float: left;
 }
@@ -194,7 +194,7 @@ h2{
 /* ナイトウェア */
 
 .bath{
-	margin-top: 50px;
+	margin-top: 55px;
 	margin-right: 40px;
 	float: right;
 }
@@ -249,8 +249,9 @@ h2{
 }
 /* アメニティ・設備 */
 
-.amenity-set img{
+.madori{
 	margin-top: 75px;
+	float: left;
 }
 /* 間取り図 */
 
@@ -264,42 +265,88 @@ h2{
 	font-family: "arial";
 	font-size: 12px;
 	letter-spacing: 0.7px;
-	line-height: 1.5;
+	line-height: 1.8;
+	margin-top: 30px;
 }
 /* アメニティ　小文字 */
 
-.amenity-box{
+.amenity-set{
 	width: 670px;
-	height: 264px;
+	height: 239px;
 	background-color: #fff;
 	border:1px solid #dbdbdb ;
 	float: right;
 	margin-top: 100px;
+	overflow: hidden;
+	padding-top: 25px;
 }
 /* アメニティ　背景ボックス */
 
 .amenity-1{
 	float: left;
+	margin-left: 50px;
 }
+
+.amenity-1-2{
+	float: left;
+	margin-top: 18px;
+	margin-left: 10px;
+	}
 
 .amenity-2{
 	float: right;
-}
+	border-left: 1px solid #dbdbdb;
+	margin: 0px 60px auto 0px;
+	padding-left: 30px;
+	}
 
 .other-room h3{
+	color: #555;
 	font-size: 18px;
 	text-align: center;
 	border-top: double 3px #dbdbdb;
-	margin:75 auto 45px;
+	margin:75px auto 45px;
 	padding-top: 35px;
 }
 /* その他の部屋 */
 
+.other-room a{
+	color: #555;
+	text-decoration: none;
+	font-family: "arial";
+	font-size: 12px;
+}
+/* その他の部屋　文字 */
+
+.other-room li{
+	width: 200px;
+	height: 80px;
+	background-color: #f1f1f1;
+}
+/* その他の部屋　背景 */
+
+.single{
+	float: left;
+}
+
+.double{
+	float: left;
+	margin-left: 50px;
+}
+
+.twin{
+	float: left;
+	margin-left: 50px;
+}
+
+.free{
+	float: right;
+}
 
 .footer{
 	background-color: #dbdbdb;
 	height: 285px;
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 20px;
 }
 /* フッター背景 */
