@@ -325,6 +325,12 @@ h2{
 }
 /* その他の部屋　背景 */
 
+.other-room img{
+  vertical-align: middle;
+  margin-right: 20px;
+}
+/* その他の部屋　文字を真ん中にする */
+
 .single{
 	float: left;
 }
