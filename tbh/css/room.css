@@ -130,6 +130,11 @@ nav ul li a:hover{
 }
 /* 客室ロケーション */
 
+.room-text p a:hover{
+	color: #d04774;
+}
+/* 客室ロケーション　マウスをのせると色変化 */
+
 .room-gaiyou{
 	color: #555;
 	font-size: 14px;
@@ -162,6 +167,10 @@ nav ul li a:hover{
 	margin-top: 22px;
 }
 /* 予約ボタン */
+
+.room-gaiyou img:hover{
+	opacity: 0.8;
+}
 
 
 
@@ -423,22 +432,22 @@ nav ul li a:hover{
 /* サイトマップの下の線 */
 
 .sitemap1{
-	width: 210px;
+	width: 200px;
 	float: left;
 }
 
 .sitemap2{
-	width: 210px;
+	width: 205px;
 	float: left;
 }
 
 .sitemap3{
-	width: 210px;
+	width: 215px;
 	float: left;
 }
 
 .sitemap4{
-	width: 210px;
+	width: 200px;
 	float: left;
 }
 
@@ -446,7 +455,6 @@ nav ul li a:hover{
 	float: right;
 }
 /* サイトマップ */
-
 
 
 
