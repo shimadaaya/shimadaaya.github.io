@@ -334,20 +334,24 @@ h2{
 .single{
 	float: left;
 }
+/* シングル */
 
 .double{
 	float: left;
 	margin-left: 50px;
 }
+/* ダブル */
 
 .twin{
 	float: left;
 	margin-left: 50px;
 }
+/* ツイン */
 
 .free{
 	float: right;
 }
+/* バリアフリー */
 
 .footer{
 	background-color: #dbdbdb;
