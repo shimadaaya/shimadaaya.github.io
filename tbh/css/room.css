@@ -376,6 +376,11 @@ footer ul li dl dd{
 	line-height: 2;
 }
 
+.footer a{
+	color: #555;
+	text-decoration: none;
+}
+
 .footer dt{
 	margin-top: 25px;
 }

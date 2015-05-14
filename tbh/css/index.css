@@ -2,70 +2,80 @@ header{
 	height: 70px;
 	background-color: #112848;
 }
-/* ヘッダーの紺色 */
+/* ヘッダー　背景 */
 
 header img{
 	margin: 20px 90px 20px 150px;
 	float: left;
 }
-/* ヘッダーロゴ */
+/* ヘッダー　ロゴ */
 
 body{
 	background-color: #fafafa;
 	width: 100%;
 	font-family: "Garamond";
 }
-/* 全体の背景色 */
+/* 全体の背景・文字*/
+
+
+
 
 nav ul{
 	margin-bottom: 26px;
 	overflow: hidden;
 }
-
-nav ul li{
-	font-size: 14px;
-	float: left;
-	width: 130px;
-	margin-right: 20px;
-	letter-spacing: 1px;
-}
+/* メニュー */
 
 nav ul li a:link, nav ul li a:visited{
+	width: 130px;
 	color: #ddd;
+	font-size: 14px;
+	font-family: "arial";
+	letter-spacing: 1px;
 	text-decoration: none;
 	display: block;
-	margin-top: 26px;
-	font-family: arial;
+	float: left;
+	margin: 26px 20px 0 0;
 }
+/* メニュー　文字 */
 
 nav ul li a:hover{
 	color: #ae1641;
 }
-/* 上メニュー */
+/* メニュー　マウスをのせたとき色が変わる */
+
+
+
 
 .inner{
 	width: 950px;
-	margin: 0 auto;
 	overflow: hidden;
+	margin: 0 auto;
 }
 /* 全体の枠（w950） */
 
+
+
+
 .main_img{
-	color: #fff;
-	font-size: 30px;
-	text-align: center;
-	letter-spacing: 4px;
-	padding-top: 150px;
 	width: 100%;
 	height: 400px;
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 4px;
+	text-align: center;
 	background: url(../img/main1.jpg)center top no-repeat;
 	background-size:cover;
+	padding-top: 150px;
 }
 /* とっておきの夜が、ございます */
 
+
+
+
 .reserve{
-	background-color: #730927;
 	height: 95px;
+	background-color: #730927;
 }
 /* 予約背景色 */
 
@@ -80,35 +90,37 @@ nav ul li a:hover{
 
 .reserve dl{
 	font-size: 12px;
-	margin-left: 80px;
 	overflow: hidden;
+	margin-left: 80px;
 }
 
 .reserve dt{
 	color: #fff;
 	font-family: "arial";
 	float: left;
-	margin-bottom: 10px;
-	margin-top: 40px;
+	margin: 40px 0 10px 0;
 }
-/* ご宿泊日、泊・人部屋数*/
+/* 検索　ご宿泊日、泊・人部屋数*/
 
 .reserve dd{
-	margin-bottom: 10px;
-	margin-left: 10px;
 	float: left;
-	margin-top: 35px;
+	margin: 35px 0 10px 10px;
 }
+/*検索　フォーム位置 */
+
+select{
+	background-color: #fff;
+	border: none;
+}
+/* 検索　フォームデザイン */
 
 .reserve_img{
-	display: block;
-	float: right;
-	margin-top: 26px;
-	margin-right: 80px;
-	display:block;
 	width: 145px;
 	height: 38px;
+	display: block;
+	float: right;
 	background-image:url(../img/searchs.jpg);
+	margin: 26px 80px 0 0;
 }
 /* 検索するボタン */
 
@@ -117,25 +129,21 @@ nav ul li a:hover{
 }
 /* 検索するボタンは押すと色が変わる */
 
-select{
-	background-color: #fff;
-	border: none;
-}
+
 
 
 h2{
-	font-size: 24px;
 	color: #555;
-	margin-top: 80px;
-	margin-bottom: 45px;
+	font-size: 24px;
 	text-align: center;
 	letter-spacing: 4px;
+	margin: 80px 0 45px;
 }
-/* ようこそ！ */
+/* ようこそ */
 
 .youkoso_text{
-	font-size: 18px;
 	color: #555;
+	font-size: 18px;
 	line-height: 2;
 	text-align: center;
 	margin-bottom: 80px;
@@ -143,124 +151,119 @@ h2{
 /* 挨拶文 */
 
 .room_img{
-	margin-bottom: 90px;
 	width: 100%;
 	height: 330px;
 	background: url(../img/room.jpg)center top no-repeat;
 	background-size:cover;
+	margin-bottom: 100px;
 }
+/* 部屋　写真 */
+
+
+
 
 .style_texts{
 	float: left;
 }
+/* 宿泊スタイル　文章左へ */
 
-.style_h3{
+.style_texts h3{
 	font-size: 24px;
 	color: #555;
 }
-/* 宿泊スタイルから探す */
+/* 宿泊スタイル 見出し */
 
-.style_text{
-	font-size: 14px;
-	margin-top: 18px;
+.style_texts p{
 	width: 240px;
+	font-size: 14px;
 	line-height: 20px;
+	margin: 18px 0 75px;
 }
+/* 宿泊スタイル　説明文 */
 
-.ichiran{
-	margin-top: 75px;
-}
-
-.ichiran a{
-	font-size: 12px;
+.style_texts p a{
 	color: #ae1641;
-	text-decoration: none;
-	margin-left: 145px;
+	font-size: 12px;
 	font-family: "arial";
 	letter-spacing: 1px;
+	text-decoration: none;
 	background: url(../img/mark.png) left center no-repeat;
-	width: 10px;
-	height: 10px;
+	margin-left: 145px;
 	}
 /* 一覧はこちら */
 
-.waku{
+.style_plan{
 	width: 626px;
 	float: right;
 }
+/* 宿泊スタイル　見えない枠 */
+
+.style_plan dd{
+	margin-top: 10px;
+}
+/* 宿泊スタイル　写真と文字の間 */
 
 .hayawari{
-	float: left;
-	text-align: center;
-	letter-spacing: 1.5px;
 	width: 200px;
 	height: 188px;
-	background-color: #fff;
-	border: 1px solid #ccc;
-	padding-top: 20px;
-	background: url(../img/mark2.png) right bottom no-repeat;
-	background-position: 168px 180px;
-}
-/* style 早割プラン */
-
-.hayawari img{
-	margin-bottom: 10px;
-}
-
-.kinen{
-	float: left;
-	margin-left:10px;
-	text-align: center;
-	letter-spacing: 1.5px;
-	width: 200px;
-	height: 188px;
-	background-color: #fff;
-	border: 1px solid #ccc;
-	padding-top: 20px;
-	background: url(../img/mark2.png) right bottom no-repeat;
-	background-position: 168px 180px;
-}
-/* style 記念日プラン */
-
-.kinen img{
-	margin-bottom: 10px;
-}
-
-.teiban{
-	float: right;
-	text-align: center;
-	letter-spacing: 1.5px;
-	width: 200px;
-	height: 188px;
-	background-color: #fff;
-	border: 1px solid #ccc;
-	padding-top: 20px;
-	background: url(../img/mark2.png) right bottom no-repeat;
-	background-position: 168px 180px;
-}
-/* style 定番プラン */
-
-.teiban img{
-	margin-bottom: 10px;
-}
-
-.style_dl{
-	font-size: 18px;
-	float: right;
-}
-
-.style_dl a{
 	color: #555;
 	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	background: url(../img/mark2.png) right bottom no-repeat;
+	background-position: 168px 180px;
+	float: left;
+	padding-top: 20px;
 }
+/* 宿泊スタイル 早割 */
+
+.kinen{
+	width: 200px;
+	height: 188px;
+	color: #555;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	background: url(../img/mark2.png) right bottom no-repeat;
+	background-position: 168px 180px;
+	float: left;
+	margin-left:10px;
+	padding-top: 20px;
+}
+/* 宿泊スタイル 記念日プラン */
+
+.teiban{
+	width: 200px;
+	height: 188px;
+	color: #555;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	background: url(../img/mark2.png) right bottom no-repeat;
+	background-position: 168px 180px;
+	float: right;
+	padding-top: 20px;
+}
+/* 宿泊スタイル 定番プラン */
+
+
+
 
 .enjoy{
-	background-color: #112848;
 	height: 510px;
-	margin-top: 85px;
-	overflow: hidden;
+	background-color: #112848;
+	margin-top: 30px;
 }
-/* ホテルの楽しみ方 */
+/* 楽しみ方　背景 */
 
 .enjoy h3{
 	color: #eee;
@@ -269,78 +272,105 @@ h2{
 	letter-spacing: 4px;
 	margin-top: 52px;
 }
+/* 楽しみ方　見出し */
 
 .enjoy_text{
 	color: #eee;
 	font-size: 14px;
-	margin-top: 20px;
 	text-align: center;
 	letter-spacing: 2px;
+	margin-top: 20px;
 }
+/* 楽しみ方　説明文 */
 
 .kinenbi{
-	margin-top: 40px;
-	float: left;
 	text-align: center;
+	float: left;
+	margin-top: 40px;
 }
-/* enjoy 記念日 */
+/* 楽しみ方 記念日 */
+
+.enjoy a{
+	text-decoration: none;
+}
+/* 楽しみ方　下線を無くす */
 
 .kanpai{
-	margin-top: 40px;
-	float: left;
 	text-align: center;
-	margin-left: 14px;
+	float: left;
+	margin: 40px 0 0 14px;
 }
-/* enjoy 乾杯 */
+/* 楽しみ方 乾杯 */
 
 .odaiba{
-	margin-top: 40px;
-	float: right;
 	text-align: center;
+	float: right;
+	margin-top: 40px;
 }
-/* enjoy お台場 */
+/* 楽しみ方 お台場 */
 
 .enjoy-red{
-	background-color: #730927;
 	width: 307px;
 	height: 63px;
+	background-color: #730927;
 }
+/* 楽しみ方　赤背景 */
 
-h4{
-	padding-top: 10px;
-}
-
-h4 a{
+.enjoy-red h4{
 	color: #eee;
 	font-size: 18px;
 	text-decoration: none;
 	letter-spacing: 2.5px;
+	padding-top: 10px;
 	}
-/* enjoy テキスト大 */
+/* 楽しみ方　コンテンツ見出し*/
 
-.enjoy-p_text{
-	color: #eee;
-	font-size: 12px;
-	margin-top: 10px;
-	letter-spacing: 1px;
+.enjoy-red p{
 	color: #eae5e6;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-top: 10px;
 }
-/* enjoy　テキスト小 */
+/* 楽しみ方　テキスト小 */
+
+
+
 
 .news h3{
-	margin-top: 60px;
+	width: 175px;
+	height: 122px;
 	color: #555;
 	font-size: 18px;
 	letter-spacing: 4px;
-	width: 175px;
-	height: 122px;
-	background-color: #dbdbdb;
 	text-align: center;
 	line-height: 7;
+	background-color: #dbdbdb;
 	float: left;
-	margin-bottom: 40px;
+	margin: 60px 0 40px;
 }
-/* お知らせ */
+/* お知らせ　見出しと背景 */
+
+.news dl{
+	width: 733px;
+	height: 92px;
+	color: #555;
+	font-size: 12px;
+	font-family:"Gulim";
+	line-height: 1.4;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #dbdbdb;
+	padding: 14px 20px;
+	margin-top: 60px;
+}
+/* お知らせ　日付文字 */
+
+.news a{
+	color: #555;
+	font-family:"arial";
+	letter-spacing: 1.3px;
+}
+/* お知らせ　記事文字 */
 
 .news dt{
 	clear: left;
@@ -349,34 +379,14 @@ h4 a{
 	width: 8em;
 	padding-left: 5px;
 }
-
 .news dd{
 	margin-bottom: 0.8em;
 	margin-left: 10em;
 }
+/* お知らせ　一行にする */
 
-.news dl{
-	color: #555;
-	font-size: 12px;
-	font-family:"Gulim";
-	float: left;
-	width: 733px;
-	height: 92px;
-	background-color: #fff;
-	float: right;
-	border: 1px solid #dbdbdb;
-	line-height: 1.4;
-	padding: 14px 20px;
-	margin-top: 60px;
-}
-/* news 日付 */
 
-.news dl dd a{
-	color: #555;
-	font-family:"arial";
-	letter-spacing: 1.3px;
-}
-/* news　お知らせ */
+
 
 aside{
 	overflow: hidden;
@@ -389,44 +399,50 @@ aside{
 .banner2{
 	float: right;
 }
+/* バナー */
+
+
+
 
 .footer{
-	background-color: #dbdbdb;
 	height: 285px;
-	margin-top: 50px;
-	margin-bottom: 20px;
+	background-color: #dbdbdb;
+	margin: 50px 0 20px;
 }
 /* フッター背景 */
 
-footer ul li dl{
+.sitemap dl{
 	color: #555;
-	font-family: arial;
+	font-family: "arial";
 }
+/* サイトマップ　文字全体 */
 
-footer ul li dl dt{
+.sitemap dt{
 	font-size: 14px;
 	line-height: 2;
-}
-
-footer ul li dl dd{
-	font-size: 12px;
-	line-height: 2;
-}
-
-.footer dt{
 	margin-top: 25px;
 }
+/* サイトマップ　見出し文字 */
 
-.sitemap{
-	border-bottom: 1px solid #ccc;
-	margin-top: 24px;
-	margin-bottom: 24px;
+.sitemap a{
+	color: #555;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 2;
 }
+/* サイトマップ　小文字 */
 
-.sitemap ul li dd{
+.sitemap dd{
 	text-indent: 1em;
 	background: url(../img/sankaku.png) left center no-repeat;
 }
+/* サイトマップ　小矢印 */
+
+.sitemap{
+	border-bottom: 1px solid #ccc;
+	margin: 24px 0;
+}
+/* サイトマップの下の線 */
 
 .sitemap1{
 	width: 210px;
@@ -453,10 +469,13 @@ footer ul li dl dd{
 }
 /* サイトマップ */
 
+
+
+
 .address{
+	color: #555;
 	font-size: 12px;
 	font-family:"arial";
-	color: #555;
 	line-height: 1.5;
 	float: left;
 }
@@ -471,15 +490,15 @@ footer ul li dl dd{
 .icon{
 	float: right;
 	margin-bottom: 40px;
-	float: right;
 }
+/* SNSアイコン */
 
 .copy{
-	text-align: center;
-	font-size: 10px;
 	color: #666;
+	font-size: 10px;
+	font-family: "arial";
+	text-align: center;
 	margin-top: 14px;
 	padding-bottom: 14px;
-	font-family: "arial";
 }
 /* コピーライト */
