@@ -63,9 +63,13 @@ header h1 img{
 }
 
 .kibun:hover{
-	margin-top: -150px;
+	margin-top: -700px;
   -webkit-transition: all 5s;
-  transition: all 5s;
+  transition: all 20s;
+}
+
+.kibun a:hover{
+	opacity: 0.5;
 }
 
 .search{
