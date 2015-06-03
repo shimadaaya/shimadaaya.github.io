@@ -82,7 +82,7 @@ h2{
 	font-size: 12px;
 	font-family: "arial";
 	letter-spacing: 1px;
-	margin: 30px 0 20px 20px;
+	margin: 30px 0 20px 10px;
 	background: url(../img/mushi.png) left center no-repeat;
 	text-indent: 16px;
 }
@@ -97,7 +97,8 @@ h2{
 
 .search-c li{
 	float: left;
-	margin-left:30px;
+	margin-left: 10px;
+	margin-right:20px;
 	text-align: center;
 }
 
@@ -119,11 +120,11 @@ h2{
 
 .search-k{
 	float: left;
-	margin-left: 40px;
+	margin-left: 50px;
 }
 
 .search-k form{
-	margin-left: 20px;
+	margin-left: 10px;
 	margin-top: 25px;
 }
 
